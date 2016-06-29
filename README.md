@@ -1,4 +1,4 @@
-http://googlemapsdemo.herokuapp.com
+http://googlemapdemo.herokuapp.com
 
 This is barebones as it gets.  If you have a Mac it will be easy to set up locally.  If you have windows you're better off just trying to understand the code and playing with the one I hosted.
 
