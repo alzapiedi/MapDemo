@@ -36,5 +36,7 @@ There is one javascript file  (app/assets/javascripts/map.js) that handles the r
 
 All of the google maps code can be found in the google maps API docs, and if you havent seen $.ajax before it is a function to make background HTTP requests and use the response to manipulate the page content without needing separate page loads.
 
+Clicking the map creates a pin and saves it. Right now there is no way to delete
+
 
 Let me know if you have any questions
