@@ -4,14 +4,23 @@ This is barebones as it gets.  If you have a Mac it will be easy to set up local
 
 # Mac Config
 First download PostgreSQL if you dont have it (http://postgresapp.com/) (free)
+
 1. Open terminal
+
 2. Navigate to working directory
+
 3. `gem install bundler`
+
 4. `bundle install` (will take a few minutes)
+
 5. `rake db:create` (open up the postgres app you downloaded before this step)
+
 6. `rake db:migrate`
+
 7. `rails s`
+
 8. Open browser go to http://localhost:3000
+
 
 # Server side code
 The server only has 3 endpoints, see routes (config/routes.rb)
