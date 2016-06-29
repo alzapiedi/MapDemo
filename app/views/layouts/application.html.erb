@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MapDemo</title>
+  <%= csrf_meta_tags %>
+  <%= javascript_include_tag 'application' %>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoFZTeNh6emLn4Y1QUWcsfgLg8iBeyp3E"></script>
+</head>
+<body>
+<div id='map'></div>
+<style type="text/css">
+    /*setting the width and height of your map element is CRUCIAL*/
+    #map {
+      width: 500px;
+      height: 500px;
+    };
+   </style>
+<%= yield %>
+
+</body>
+</html>
